@@ -1,0 +1,136 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+    width: 400px;
+    height: 650px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding-top: 1.75%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 12px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.Section-image {
+    width: 360px;
+    height: 360px;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#equilibrium {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.Section-image::after{
+    content: '';
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    background-image: url('https://res.cloudinary.com/doxow9jfk/image/upload/v1781210134/icon-view_jphklh.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.Section-image:active::after {
+    opacity: 1;
+}
+.details h1 {
+    color: #FFF;
+    font-size: 1.5em;
+    display: block;
+    margin-left: 5%;
+    font-weight: 700;
+}
+
+.details h1:active {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 7%;
+    margin-right: auto;
+    color: hsl(215, 32%, 50%);
+
+}
+
+#space {
+    display: inline-block;
+    width: 40%;
+}
+
+#ETH {
+    margin-left: 5%;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+#ETH::before {
+    content: url(https://res.cloudinary.com/doxow9jfk/image/upload/v1781187281/icon-ethereum_w6otn2.svg);
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+#time-left {
+    font-weight: 600;
+    color: hsl(215, 32%, 50%);
+}
+
+#time-left::before {
+    content: url(https://res.cloudinary.com/doxow9jfk/image/upload/v1781187836/icon-clock_de32fl.svg);
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+hr {
+    width: 89%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: hsl(215, 32%, 50%);
+    border-style: solid;
+}
+
+.creator {
+    margin-left: 5%;
+}
+
+#PP {
+    border: 2px solid white;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+#royalties {
+    margin-left: 5%;
+    color: hsl(215, 32%, 50%);
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+a:active {
+    color: hsl(178, 100%, 50%);
+}
+
+footer {
+    margin-top: 20px;
+}
