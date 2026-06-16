@@ -6,10 +6,10 @@
 Ce projet m'a permis de mettre en pratique les fondamentaux du développement frontend en construisant une composante réaliste : **une carte de prévisualisation NFT** avec tous les éléments interactifs qu'on attendrait d'une interface moderne.
 
 ### Objectifs du projet
-- ✅ Construire une carte NFT fonctionnelle et visuellement fidèle au design
-- ✅ Implémenter des états interactifs (hover, actif)
-- ✅ Créer une structure HTML sémantique et bien organisée
-- ✅ Maîtriser les techniques CSS pour les effets visuels
+-   Construire une carte NFT fonctionnelle et visuellement fidèle au design
+-   Implémenter des états interactifs (hover, actif)
+-   Créer une structure HTML sémantique et bien organisée
+-   Maîtriser les techniques CSS pour les effets visuels
 
 ---
 
@@ -254,11 +254,11 @@ Pour aligner des éléments inline comme une icône et du texte, `vertical-align
 Ce projet m'a montré l'importance de **penser avant de coder**. En découpant le problème en étapes logiques et en séparant le contenu de la présentation, le code devient plus lisible et maintenable.
 
 La clé est de :
-1. ✅ **Comprendre le design** avant de commencer
-2. ✅ **Structurer en HTML sémantique** d'abord
-3. ✅ **Styliser progressivement** section par section
-4. ✅ **Tester les interactions** et les états
-5. ✅ **Itérer** pour améliorer
+1.   **Comprendre le design** avant de commencer
+2.   **Structurer en HTML sémantique** d'abord
+3.   **Styliser progressivement** section par section
+4.   **Tester les interactions** et les états
+5.   **Itérer** pour améliorer
 
 Chaque petit défi (overlay, icônes, espacement) m'a enseigné une technique nouvelle. C'est dans l'itération qu'on grandit en tant que développeur.
 
