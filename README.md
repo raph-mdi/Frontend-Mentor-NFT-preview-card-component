@@ -195,6 +195,33 @@ a:active {
 | **Largeur fixe (400px)** | Contrôle précis du design | Layout fluide/responsive |
 | **`hsla()` pour transparence** | Cyan semi-transparent pour l'overlay | Couleur unie |
 
+## Optimisation et intégration responsive
+Pour garantir une expérience utilisateur optimale sur tous les terminaux du marché, l'architecture CSS intègre des requêtes de médias (@media) basées sur les standards de l'industrie.
+
+Configuration pour tablettes (max-width: 768px) :
+Utilisation de Flexbox pour centrer verticalement et horizontalement la carte sur l'affichage, exploitant au mieux l'espace disponible.
+
+Configuration pour smartphones (max-width: 480px) :
+Afin d'éviter tout débordement horizontal (scrollbar), les dimensions fixes ont été remplacées par des valeurs fluides et relatives. La carte et l'image s'adaptent proportionnellement tout en conservant leur intégrité visuelle :
+
+@media (max-width: 480px) {
+    .card {
+        width: 90%;          /* Largeur fluide sur mobile */
+        height: auto;        /* Hauteur dynamique indexée sur le contenu */
+        padding-bottom: 25px;
+    }
+
+    .Section-image {
+        width: 90%;          /* Redimensionnement fluide de l'image */
+        height: auto;
+        aspect-ratio: 1 / 1; /* Conservation stricte du ratio carré */
+    }
+
+    #space {
+        width: 25%;          /* Ajustement de l'espacement pour maintenir l'alignement sur une ligne */
+    }
+}
+
 ---
 
 ## Ce que j'ai appris
